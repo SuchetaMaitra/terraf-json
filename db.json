@@ -1,31 +1,19 @@
-{
-  "posts": [
-    {
-      "id": 1,
-      "title": "Post 1"
-    },
-    {
-      "id": 2,
-      "title": "Post 2"
-    },
-    {
-      "id": 3,
-      "title": "Post 3"
-    }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    },
-    {
-      "id": 2,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
-}
+[
+ {
+ "opts":
+ {
+ "id":54,
+ "name":"3PARFED-TEST01",
+ "descriptors":{"os":"OE Linux UEK (5.x, 6.x)"},
+ "FCPaths":
+ [
+ {"wwn":"100028924AAFF37C", "portPos":{"node":0,"slot":2,"cardPort":4},"hostSpeed":0},
+ {"wwn":"100028924AAFF37D","hostSpeed":0}
+ ],
+ "iSCSIPaths":[],
+ "persona":"GENERIC_ALUA",
+ "initiatorChapEnabled":false,
+ "targetChapEnabled":false
+ }
+ }
+]
